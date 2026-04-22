@@ -1,0 +1,203 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ReLink is a fictional website for reclaimed building materials in Ireland.">
+    <title>ReLink - Browse Materials</title>
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Our stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="index.html">ReLink</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link active" href="browse.html">Browse Materials</a></li>
+                <li class="nav-item"><a class="nav-link" href="how-it-works.html">How It Works</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <h1>Browse Materials</h1>
+        <p>Look through the fictional sample listings below to see how ReLink would work.</p>
+    </div>
+
+    <!-- Intro and Categories -->
+    <div class="container section">
+
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Available Listings</h2>
+                <p>Below are some example materials that sellers could list on ReLink. These are fictional sample listings created for this college project. In a real version of this site, sellers would be able to add their own listings and buyers could contact them directly through the website.</p>
+            </div>
+
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <h3>Categories</h3>
+                    <ul class="relink-list">
+                        <li>Timber</li>
+                        <li>Bricks</li>
+                        <li>Pallets</li>
+                        <li>Kitchen Units</li>
+                        <li>Office Furniture</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Material Cards -->
+        <h2 class="section-heading">Sample Listings</h2>
+        <div class="row">
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/timber.jpg" class="card-img-top" alt="Reclaimed timber boards for sale" width="400" height="200">
+                    <div class="card-body">
+                        <h3 class="card-title">Reclaimed Timber Boards</h3>
+                        <p class="card-text">Solid timber boards in good condition, removed from a Wicklow renovation project.</p>
+                        <p class="card-price">€120 per bundle</p>
+                        <a href="contact.html" class="btn btn-orange">Enquire</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/bricks.jpg" class="card-img-top" alt="Reclaimed bricks ready for reuse" width="400" height="200">
+                    <div class="card-body">
+                        <h3 class="card-title">Reclaimed Bricks</h3>
+                        <p class="card-text">Clean reclaimed bricks from a Limerick demolition site. Large quantity available.</p>
+                        <p class="card-price">€0.80 per brick</p>
+                        <a href="contact.html" class="btn btn-orange">Enquire</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/pallets.jpg" class="card-img-top" alt="Wooden pallets available for collection" width="400" height="200">
+                    <div class="card-body">
+                        <h3 class="card-title">Wooden Pallets</h3>
+                        <p class="card-text">Sturdy wooden pallets from a Dublin warehouse clearance. Fair condition overall.</p>
+                        <p class="card-price">€5 each</p>
+                        <a href="contact.html" class="btn btn-orange">Enquire</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images/furniture.jpg" class="card-img-top" alt="Office furniture from a commercial refurbishment" width="400" height="200">
+                    <div class="card-body">
+                        <h3 class="card-title">Office Furniture</h3>
+                        <p class="card-text">Desks and chairs from a Cork office refurbishment. Good condition, priced to sell.</p>
+                        <p class="card-price">€40 per desk</p>
+                        <a href="contact.html" class="btn btn-orange">Enquire</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Listings Table -->
+        <h2 class="section-heading">All Sample Listings</h2>
+        <table class="table table-bordered">
+            <thead class="table-head">
+                <tr>
+                    <th>Material</th>
+                    <th>Quantity</th>
+                    <th>Condition</th>
+                    <th>Price</th>
+                    <th>Delivery</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Timber Boards</td>
+                    <td>20 boards</td>
+                    <td>Good</td>
+                    <td>€120 per bundle</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>Reclaimed Bricks</td>
+                    <td>500 bricks</td>
+                    <td>Good</td>
+                    <td>€0.80 each</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>Wooden Pallets</td>
+                    <td>30 pallets</td>
+                    <td>Fair</td>
+                    <td>€5 each</td>
+                    <td>Collection Only</td>
+                </tr>
+                <tr>
+                    <td>Office Furniture</td>
+                    <td>10 desks</td>
+                    <td>Good</td>
+                    <td>€40 per desk</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>Kitchen Units</td>
+                    <td>1 full set</td>
+                    <td>Very Good</td>
+                    <td>€350 full set</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>Roof Tiles</td>
+                    <td>200 tiles</td>
+                    <td>Fair</td>
+                    <td>€1.50 each</td>
+                    <td>Collection Only</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>These are sample fictional listings created for this college project. They are not real products and cannot be purchased. If this were a real website, sellers would add their own listings and buyers could get in touch through the contact page.</p>
+
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container">
+            <p>&copy; 2026 ReLink. Fictional project for educational purposes only.</p>
+            <p>
+                <a href="index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="browse.html">Browse</a> |
+                <a href="how-it-works.html">How It Works</a> |
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Our JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+```

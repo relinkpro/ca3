@@ -1,0 +1,186 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ReLink is a fictional website for reclaimed building materials in Ireland.">
+    <title>ReLink - Home</title>
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Our stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="index.html">ReLink</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="browse.html">Browse Materials</a></li>
+                <li class="nav-item"><a class="nav-link" href="how-it-works.html">How It Works</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="hero">
+        <div class="container">
+            <h1>Reclaimed Building Materials in Ireland</h1>
+            <p>ReLink is a fictional college project showing how sellers, buyers and drivers could connect through a simple website for reclaimed building materials.</p>
+            <a href="browse.html" class="btn btn-orange">Browse Materials</a>
+            <a href="how-it-works.html" class="btn btn-outline-light ml-2">How It Works</a>
+        </div>
+    </div>
+
+    <!-- Feature Boxes -->
+    <div class="container section">
+        <h2 class="text-center section-heading">Who Uses ReLink?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <h3>Sellers</h3>
+                    <p>Businesses with leftover materials can list them instead of paying for disposal. A simple way to make money from surplus stock.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <h3>Buyers</h3>
+                    <p>Renovators and tradespeople can browse reclaimed materials at lower prices, with delivery options available.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <h3>Drivers</h3>
+                    <p>Van owners and couriers can pick up flexible delivery jobs through the site and choose when they want to work.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Materials -->
+    <div id="featured" class="section">
+        <div class="container">
+            <h2 class="text-center section-heading">Featured Materials</h2>
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/timber.jpg" class="card-img-top" alt="Reclaimed timber boards for sale" width="400" height="200">
+                        <div class="card-body">
+                            <h3 class="card-title">Reclaimed Timber Boards</h3>
+                            <p class="card-text">Good condition solid timber boards removed from a renovation project in Wicklow.</p>
+                            <p class="card-price">€120 per bundle</p>
+                            <a href="browse.html" class="btn btn-orange">View Listing</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/kitchen.jpg" class="card-img-top" alt="Used kitchen units from renovation project" width="400" height="200">
+                        <div class="card-body">
+                            <h3 class="card-title">Used Kitchen Units</h3>
+                            <p class="card-text">Full kitchen set removed from a Dublin property refurbishment. In very good condition.</p>
+                            <p class="card-price">€350 full set</p>
+                            <a href="browse.html" class="btn btn-orange">View Listing</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/bricks.jpg" class="card-img-top" alt="Reclaimed bricks ready for reuse" width="400" height="200">
+                        <div class="card-body">
+                            <h3 class="card-title">Reclaimed Bricks</h3>
+                            <p class="card-text">Large quantity of clean reclaimed bricks available from a Limerick demolition site.</p>
+                            <p class="card-price">€0.80 per brick</p>
+                            <a href="browse.html" class="btn btn-orange">View Listing</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Sample Table -->
+    <div class="container section">
+        <h2 class="text-center section-heading">Recent Listings</h2>
+        <table class="table table-bordered">
+            <thead class="table-head">
+                <tr>
+                    <th>Material</th>
+                    <th>Quantity</th>
+                    <th>Condition</th>
+                    <th>Price</th>
+                    <th>Delivery</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Timber Boards</td>
+                    <td>20 boards</td>
+                    <td>Good</td>
+                    <td>€120</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>Kitchen Units</td>
+                    <td>1 full set</td>
+                    <td>Very Good</td>
+                    <td>€350</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>Reclaimed Bricks</td>
+                    <td>500 bricks</td>
+                    <td>Good</td>
+                    <td>€0.80 each</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>Wooden Pallets</td>
+                    <td>30 pallets</td>
+                    <td>Fair</td>
+                    <td>€5 each</td>
+                    <td>Collection Only</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="text-center"><a href="browse.html">View all listings &rarr;</a></p>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container">
+            <p>&copy; 2026 ReLink. Fictional project for educational purposes only.</p>
+            <p>
+                <a href="index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="browse.html">Browse</a> |
+                <a href="how-it-works.html">How It Works</a> |
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Our JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
